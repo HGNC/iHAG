@@ -161,3 +161,4 @@ var json = [
   ]
 ];
 ```
+![iHAG example](https://cloud.githubusercontent.com/assets/9589542/11692076/c3be13fe-9e95-11e5-94df-5a36294cb499.png)
