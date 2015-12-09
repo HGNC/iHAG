@@ -161,3 +161,30 @@ var json = [
 ];
 ```
 ![iHAG example](https://cloud.githubusercontent.com/assets/9589542/11692076/c3be13fe-9e95-11e5-94df-5a36294cb499.png)
+
+## drawHAG settings
+Many of the settings of iHAG have defaults but these defaults can be changed to give the graph your own look and feel:
+- titleColor: The hex code colour of the title in the graph. Default = "#444"
+- titleText: The graph title. Default = "Horizontal acyclic graph"
+- titleFontFamily: Fon families to use. Default = "Tahoma,Verdana,Arial,Helvetica,sans-serif"
+- titleFontSize: Font size. Default = "20"
+- titlePosX: Horizontal pixel position to start the title. Default = "10"
+- titlePosY: Vertical pixel position to start the title. Default = "12"
+- lineColor: The hex code colour for the connections/edges, Default = "#444"
+- highlightColor: The hex code colour for highlighting the path through the graph when a node is selected. Default = "#B40000"
+- subjectRectFillColor: The hex code for the background colour of the subject node. Default = "#444"
+- subjectRectStrokeColor: Hex code for the border colour of the subject node. Default = "#444"
+- subjectTextColor: Hex code for the colour of the text within the subject node. Default = "#000"
+- subjectActiveOpacity: Opacity of the subject node background when selected. Default = 1
+- subjectNormOpacity: Opacity of the subject node background. Default = .25
+- defaultRectFillColor: The hex code for the background colour of the nodes. Default = "#444"
+- defaultRectStrokeColor: Hex code for the border colour of the nodes. Default = "#444"
+- defaultTextColor: Hex code for the colour of the text within the nodes. Default = "#FFF"
+- defaultActiveOpacity: Opacity of the node background when selected. Default = .25
+- defaultNormOpacity: Opacity of the node backgrounds. Default = 1
+- minPaperX: Minium number of pixels for the width of the graph. Default = 924
+- minPaperY: Minium number of pixels for the height of the graph. Default = 1
+- layout: The graph can either be centred ('centric') or the graph can start drawing the graph from the top left corner ('topOrientated'). Default = 'centric'
+- targetSubjectID: The ID of the subject node to highlight. Default = 0
+- containerID: The div container ID. Default = 'hag'
+- paperColor: Background colour of the graph. Default = '#F1F4F7'
