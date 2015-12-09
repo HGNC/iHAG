@@ -80,7 +80,7 @@ Finally call the `drawHAG()` function beneth the script dependencies with a spec
   ];
   $(document).ready(function(){
     drawHAG(json, {
-      containerID: 'hag',
+      containerID: 'YOUR-CHOICE-OF-ID',
       targetSubjectID: 6  //choose a subject node ID
     });
   });
