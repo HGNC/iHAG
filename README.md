@@ -96,8 +96,7 @@ the following:
 
 `link` = An array of node IDs to which the current node should link to (create an edge) in the previous column.
 
-The node objects that would appear in the first column must have this nodes ID within the `link` array. The following javascript data
-structure produces the image of the graph below:
+The node objects that would appear in the first column must have their node ID within the `link` array as though they link to themselves. The following javascript data structure produces the image of the graph below:
 ```javascript
 var json = [
   [
