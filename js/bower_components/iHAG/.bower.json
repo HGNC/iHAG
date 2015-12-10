@@ -1,0 +1,37 @@
+{
+  "name": "iHAG",
+  "main": "iHAG.js",
+  "description": "Draws interactive horizontal acyclic graphs",
+  "moduleType": [],
+  "keywords": [
+    "graph",
+    "acyclic",
+    "interactive"
+  ],
+  "authors": [
+    "KrisGray"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/HGNC/iHAG",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "raphael": "~2.1.4"
+  },
+  "_release": "b5c26c2790",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "b5c26c2790c95321a8334ec82a26c1cc24a797c6"
+  },
+  "_source": "git://github.com/HGNC/iHAG.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/HGNC/iHAG.git",
+  "_direct": true
+}

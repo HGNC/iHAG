@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Draws interactive horizontal acyclic graphs">
+    <meta name="keywords" content="Acyclic grapher">
+    <meta name="author" content="KrisGray">    
+    <title>iHAG</title>
+  </head>
+  <body>
+    <h1>iHAG - interactive Horizontal Acyclic Grapher</h1>
+
+    <div id="hag"></div>
+
+    <script type="text/javascript" src="/js/bower_components/raphael/raphael-min.js"></script>
+    <script type="text/javascript" src="/js/bower_components/iHAG/iHAG.js"></script>
+    <script type="text/javascript">
+      
+      $(document).ready(function(){
+        var json = [
+          [
+            {
+              link: [
+                "1"
+              ],
+              name: "Box 1A",
+              id: "1"
+            },
+            {
+              link: [
+                "10"
+              ],
+              name: "Box 2A",
+              id: "10"
+            }
+          ],
+          [
+            {
+              link: [
+                "1",
+                "10"
+              ],
+              name: "Box 1B",
+              id: "2"
+            },
+            {
+              link: [
+                "1"
+              ],
+              name: "Box 2B",
+              id: "3"
+            },
+          ],
+          [
+            {
+              link: [
+                "2",
+                "3"
+              ],
+              name: "Box C",
+              id: "4"
+            }
+          ],
+          [
+            {
+              link: [
+                "4"
+              ],
+              name: "Box 1D",
+              id: "5"
+            },
+            {
+              link: [
+                "4"
+              ],
+              name: "Box 2D",
+              id: "6"
+            }
+          ]
+        ];
+        drawHAG(json, {
+          containerID: 'hag',
+          targetSubjectID: 6 //choose a subject node ID
+        });
+      });
+    </script>
+  </body>
+</html>
+
+
