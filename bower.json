@@ -1,5 +1,5 @@
 {
-  "name": "Interactive Horizontal Acyclic Grapher (iHAG)",
+  "name": "iHAG",
   "main": "iHAG.js",
   "description": "Draws interactive horizontal acyclic graphs",
   "moduleType": [],
