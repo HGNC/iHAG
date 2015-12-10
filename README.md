@@ -3,6 +3,8 @@
 ## Introduction
 Draws acyclic graphs based on data within a javascript object from left to right. The graphs are interactive in that a user can click and hold on a box (node) which will highlight the path through the graph or the user can click and drag the box (node) to another area of the graph.
 
+![iHAG img](https://cloud.githubusercontent.com/assets/9589542/11692076/c3be13fe-9e95-11e5-94df-5a36294cb499.png)
+
 **For a live demo visit http://hgnc.github.io/iHAG/**
 
 ## Install
