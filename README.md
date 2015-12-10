@@ -19,67 +19,67 @@ Javascript dependencies:
 Simply add a `<div id='YOUR-CHOICE-OF-ID'></div>` anywhere in your `<body>`.
 Then at the bottom of the `<body>` add your javascript dependencies:
 ```html
-
+<script type="text/javascript" src="/js/bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="/js/bower_components/raphael/raphael-min.js"></script>
 <script type="text/javascript" src="/js/bower_components/iHAG/iHAG.js"></script>
 ```
 Finally call the `drawHAG()` function beneth the script dependencies with a specific javascript object format:
 ```html
 <script type="text/javascript">
-  var json = [
-    [
-      {
-        link: [
-          "1"
-        ],
-        name: "Box A",
-        id: "1"
-      }
-    ],
-    [
-      {
-        link: [
-          "1"
-        ],
-        name: "Box 1B",
-        id: "2"
-      },
-      {
-        link: [
-          "1"
-        ],
-        name: "Box 2B",
-        id: "3"
-      },
-    ],
-    [
-      {
-        link: [
-          "2",
-          "3"
-        ],
-        name: "Box C",
-        id: "4"
-      }
-    ],
-    [
-      {
-        link: [
-          "4"
-        ],
-        name: "Box 1D",
-        id: "5"
-      },
-      {
-        link: [
-          "4"
-        ],
-        name: "Box 2D",
-        id: "6"
-      }
-    ]
-  ];
   $(document).ready(function(){
+    var json = [
+      [
+        {
+          link: [
+            "1"
+          ],
+          name: "Box A",
+          id: "1"
+        }
+      ],
+      [
+        {
+          link: [
+            "1"
+          ],
+          name: "Box 1B",
+          id: "2"
+        },
+        {
+          link: [
+            "1"
+          ],
+          name: "Box 2B",
+          id: "3"
+        },
+      ],
+      [
+        {
+          link: [
+            "2",
+            "3"
+          ],
+          name: "Box C",
+          id: "4"
+        }
+      ],
+      [
+        {
+          link: [
+            "4"
+          ],
+          name: "Box 1D",
+          id: "5"
+        },
+        {
+          link: [
+            "4"
+          ],
+          name: "Box 2D",
+          id: "6"
+        }
+      ]
+    ];
     drawHAG(json, {
       containerID: 'YOUR-CHOICE-OF-ID',
       targetSubjectID: 6  //choose a subject node ID
