@@ -13,11 +13,12 @@
     <h1>iHAG - interactive Horizontal Acyclic Grapher</h1>
 
     <div id="hag"></div>
-
+    <script type="text/javascript" src="js/bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="js/bower_components/raphael/raphael-min.js"></script>
     <script type="text/javascript" src="js/bower_components/iHAG/iHAG.js"></script>
     <script type="text/javascript">
-      var json = [
+      $(document).ready(function() {
+        var json = [
         [
           {
             link: [
@@ -82,7 +83,7 @@
         containerID: 'hag',
         targetSubjectID: 6 //choose a subject node ID
       });
-      
+      });
     </script>
   </body>
 </html>

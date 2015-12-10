@@ -13,6 +13,7 @@ $ bower install git://github.com/HGNC/iHAG.git
 ## Dependencies
 Javascript dependencies:
 - [Raphael ~2.1.4](https://github.com/DmitryBaranovskiy/raphael)
+- [jQuery ~2.1.4](https://github.com/jquery/jquery)
 
 ## Usage
 Simply add a `<div id='YOUR-CHOICE-OF-ID'></div>` anywhere in your `<body>`.
